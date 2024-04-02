@@ -1,22 +1,12 @@
 import ListaPrecoComponente from "../components/ListaPrecoComponente";
 
-function PaginaPrincipal(){
+function PaginaPrincipal() {
 
-
-
-return(
-<>
-<ListaPrecoComponente>
-    
-</ListaPrecoComponente>
-</>
-
-
-
-
-)
-
-
+    return (
+        <>
+            <ListaPrecoComponente></ListaPrecoComponente>
+        </>
+    )
 
 }
 
