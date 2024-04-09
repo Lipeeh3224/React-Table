@@ -4,6 +4,8 @@ import '../style/custom.css';
 import { useState } from 'react';
 import FirstExercise from '../exercises/FirstExercise';
 import SecondExercise from '../exercises/SecondExercise';
+import ThirdExerciseExercise from '../exercises/ThirdExercise';
+import FourthExercise from '../exercises/FourthExercise';
 
 function PrincipalPage(){
 
@@ -14,6 +16,8 @@ function PrincipalPage(){
         <>
             <FirstExercise />
             <SecondExercise/>
+            <ThirdExerciseExercise/>
+            <FourthExercise/>
         </>
     );
 }
