@@ -6,6 +6,7 @@ import FirstExercise from '../exercises/FirstExercise';
 import SecondExercise from '../exercises/SecondExercise';
 import ThirdExerciseExercise from '../exercises/ThirdExercise';
 import FourthExercise from '../exercises/FourthExercise';
+import FifithExercise from '../exercises/FifithExercise';
 
 function PrincipalPage(){
 
@@ -18,6 +19,7 @@ function PrincipalPage(){
             <SecondExercise/>
             <ThirdExerciseExercise/>
             <FourthExercise/>
+            <FifithExercise/>
         </>
     );
 }
