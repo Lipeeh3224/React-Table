@@ -7,6 +7,8 @@ import SecondExercise from '../exercises/SecondExercise';
 import ThirdExerciseExercise from '../exercises/ThirdExercise';
 import FourthExercise from '../exercises/FourthExercise';
 import FifithExercise from '../exercises/FifithExercise';
+import SixthExercise from '../exercises/SixthExercise';
+
 
 function PrincipalPage(){
 
@@ -14,13 +16,16 @@ function PrincipalPage(){
     const constante = 3;
 
     return(
-        <>
+        <div className ="container">
             <FirstExercise />
             <SecondExercise/>
             <ThirdExerciseExercise/>
             <FourthExercise/>
             <FifithExercise/>
-        </>
+            <br/>
+            <br/>
+            <SixthExercise/>
+        </div>
     );
 }
 
